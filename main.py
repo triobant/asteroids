@@ -17,8 +17,8 @@ def main():
             if event.type == pygame.QUIT:
                 return
 
-        player.draw(screen)
         screen.fill(color="black")
+        player.draw(screen)
         pygame.display.flip()
 
         # limited to 60 fps
